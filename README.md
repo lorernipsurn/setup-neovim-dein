@@ -1,1 +1,2 @@
-# setup-neovim
+# setup-neovim-dein
+
