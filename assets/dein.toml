@@ -1,0 +1,15 @@
+[[plugins]]                                
+repo = 'tomasr/molokai'
+hook_add = '''
+let g:molokai_original = 4
+let g:rehash256 = 1
+'''
+
+[[plugins]]                                
+repo = 'preservim/nerdtree'                                
+hook_add = '''    
+nnoremap <silent><C-a> :NERDTreeToggle<CR>
+'''
+
+[[plugins]]                                
+repo = 'tpope/vim-fugitive'                                
