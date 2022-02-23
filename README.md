@@ -11,3 +11,4 @@ Script for setting up nvim.
             ├── dein.lazy.toml
             └── dein.to
 </pre>
+## ここ！！

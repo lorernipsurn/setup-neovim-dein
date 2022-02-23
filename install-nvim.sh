@@ -9,14 +9,12 @@ sudo apt update -y
 sudo apt update neovim -y
 # }}
 
-
 # set fils{{
 mkdir -p $HOME/.config/nvim/dein
 mkdir -p $HOME/.config/nvim/toml
 cp ./assets/init.vim $HOME/.config/nvim/
 cp ./assets/dein.toml $HOME/.config/nvim/toml/
 # }}
-
 
 # set alias vi|vim → nvim {{
 cat <<EOL >> $HOME/.bashrc
